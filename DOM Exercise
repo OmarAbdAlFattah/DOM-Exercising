@@ -1,0 +1,81 @@
+<html>
+        <head>
+  <meta charset="UTF-8">
+  <title>Testing the thing</title>
+</head>
+
+<body>
+  <h1 class="heading">Hello Codepen</h1>
+  <p> <span>baby by my heavenly side
+I know if I go, I'll die happy tonight[Bridge]
+Oh, my God, I f</span>eelsdsdsds it in the air
+Telephone wires above are sizzling like a snareHoney, I'm on fire, I feel it everywhere
+Nothing scares me anymore
+One, two, three, four[Chorus]
+Kiss me hard before you go
+Summertime sadness
+I just wanted you to know
+That baby, you the best
+[Hook]
+I got that summertime, summertime sadness
+S-s-summertime, summertime sadness
+Got that summertime, summertime sadness
+Oh, oh oh, oh oh
+
+[Verse 3]
+Think I'll miss you forever
+Like the stars miss the sun in the morning skies
+Later's better than never
+Even if you're gone I'm gonna drive, drive, drive[Hook]
+    I got that summertime, <span>summertime</span> sadness
+S-s-summertime, <span>summertime</span> sadness
+    Got that <span>summertime</span>, summertime sadness
+Oh, oh oh, oh oh[adadadasddassDDDDD]Kiss me hard beforeyou go<span>Summertime sadness
+    I just wanted you to know</span>
+That, baby, you the best
+    [Hook]I got that <span>summertime</span>, <span>summertime</span> sadnessS-s-summertime, summertime sadness
+Got that summertime, summertime sadness
+Oh, oh oh, oh oh178  Embed
+    MORE ON GENIUS</p>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCpHpkIcRxzFWDS6JxaYUPoyMFxXRcwmdaaHhayHQLka1AUlHb" alt="pink-ish flowers" id="flowerImage">
+</body>
+<style>
+        span{
+                background-color: purple;
+        }
+        
+        .heading{
+                text-align: center;
+                background-color: red;
+        }
+
+        body{
+                background-color: grey;
+        }
+
+        .headingEdtited{
+                text-align: center;
+                font-size: 50px;
+                font-family: monospace;
+                background-color:blue;
+                border: 5px dotted;
+        }
+</style>
+
+<script>
+        var summerTime = document.querySelectorAll("span");
+        for(var i = 0; i < summerTime.length; i++){
+        summerTime[i].innerHTML = "AAAAAAAAAAAAAAA";
+        }
+
+        var headingEl = document.querySelector(".heading");
+        headingEl.className="headingEdtited";
+
+        var image = document.getElementByTageName("img");
+        image.style.width="15px";
+
+</script>
+</html>
+
+        
